@@ -11,7 +11,9 @@ class Singleton {
     }
 }
 
-/** Пример **/
+
+/********************** Использование **********************/
+
 const singleTonLinkOne = Singleton.getInstance();
 const singleTonLinkTwo = Singleton.getInstance();
 console.log(singleTonLinkOne === singleTonLinkTwo); // true

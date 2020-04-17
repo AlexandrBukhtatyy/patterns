@@ -24,6 +24,8 @@ class Component implements Cloneable<Component> {
 }
 
 
+/********************** Использование **********************/
+
 const initParams: any = {
     prop2: 2,
 };
